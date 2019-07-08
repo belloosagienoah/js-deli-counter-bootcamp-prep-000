@@ -12,7 +12,7 @@ function currentLine(katzDeli){
   else {
   var results = [];
   for(var i=0; i<katzDeli.length; i++){
-    results. push(parseInt([i])+1+'. '+katzDeli[i]);
+    results.push(parseInt([i])+1+'. '+katzDeli[i]);
   }
 
   return "The line is currently: "+ results.join(', ')
