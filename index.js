@@ -7,7 +7,6 @@ function takeANumber (katzDeli, newCustomer){
 
 takeANumber(['me'], "sonia")
 
-
 function currentLine(katzDeli){
   if (katzDeli.length===0){
     return "The line is currently empty.";
