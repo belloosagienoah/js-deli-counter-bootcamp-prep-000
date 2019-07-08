@@ -12,3 +12,5 @@ var takeANumber = function(katzDeli, newCustomer) {
      var customer = katzDeliLine.shift(); // shift array of people
      return "Currently serving " + customer + "."; //return string with customer name
   }
+
+  
